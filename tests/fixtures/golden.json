@@ -1,0 +1,1919 @@
+{
+ "edge": [
+  {
+   "input_sha": "986bd79a3714f3c344759343357752cea6ecf718277c11d6bce430c8de9d726a",
+   "score": 3773.75,
+   "meta": {
+    "diagonal": "ur",
+    "channels": [
+     {
+      "target": 0,
+      "transforms": [
+       2,
+       1,
+       10,
+       5
+      ],
+      "sources": [
+       0,
+       1,
+       2,
+       1
+      ]
+     },
+     {
+      "target": 1,
+      "transforms": [
+       2,
+       1,
+       10,
+       5
+      ],
+      "sources": [
+       1,
+       1,
+       1,
+       2
+      ]
+     },
+     {
+      "target": 2,
+      "transforms": [
+       2,
+       1,
+       10,
+       5
+      ],
+      "sources": [
+       2,
+       2,
+       2,
+       2
+      ]
+     }
+    ]
+   },
+   "scramble_compat": [
+    19386.75,
+    885.875,
+    1394.25
+   ]
+  },
+  {
+   "input_sha": "330ce7a0834b2932935d3fa646a2cc826ca3f0b9b0c906ee6097ab8259936779",
+   "score": 6336.375,
+   "meta": {
+    "diagonal": "dl",
+    "channels": [
+     {
+      "target": 0,
+      "transforms": [
+       1,
+       14,
+       7,
+       7
+      ],
+      "sources": [
+       0,
+       1,
+       1,
+       1
+      ]
+     },
+     {
+      "target": 1,
+      "transforms": [
+       1,
+       14,
+       7,
+       7
+      ],
+      "sources": [
+       1,
+       1,
+       2,
+       2
+      ]
+     },
+     {
+      "target": 2,
+      "transforms": [
+       1,
+       14,
+       7,
+       7
+      ],
+      "sources": [
+       2,
+       2,
+       2,
+       2
+      ]
+     }
+    ]
+   },
+   "scramble_compat": [
+    1697.0,
+    23154.5,
+    1680.0
+   ]
+  },
+  {
+   "input_sha": "d20e0512a704f6e3185132731371fdc03ca9877deaf4b1facdf3a4d9996d8942",
+   "score": 3714.5,
+   "meta": {
+    "diagonal": "dr",
+    "channels": [
+     {
+      "target": 0,
+      "transforms": [
+       3,
+       1,
+       10,
+       1
+      ],
+      "sources": [
+       0,
+       2,
+       2,
+       0
+      ]
+     },
+     {
+      "target": 1,
+      "transforms": [
+       3,
+       1,
+       10,
+       1
+      ],
+      "sources": [
+       1,
+       1,
+       1,
+       2
+      ]
+     },
+     {
+      "target": 2,
+      "transforms": [
+       3,
+       1,
+       10,
+       1
+      ],
+      "sources": [
+       2,
+       2,
+       2,
+       2
+      ]
+     }
+    ]
+   },
+   "scramble_compat": [
+    899.625,
+    830.625,
+    14644.25
+   ]
+  },
+  {
+   "input_sha": "e19e489dc46100a59dd028e52183261a13264176c6f16ffcc0b116d70a00eefa",
+   "score": 3719.125,
+   "meta": {
+    "diagonal": "dl",
+    "channels": [
+     {
+      "target": 0,
+      "transforms": [
+       4,
+       13,
+       6,
+       13
+      ],
+      "sources": [
+       0,
+       1,
+       0,
+       0
+      ]
+     },
+     {
+      "target": 1,
+      "transforms": [
+       4,
+       13,
+       6,
+       13
+      ],
+      "sources": [
+       1,
+       1,
+       1,
+       1
+      ]
+     },
+     {
+      "target": 2,
+      "transforms": [
+       4,
+       5,
+       6,
+       13
+      ],
+      "sources": [
+       2,
+       2,
+       2,
+       2
+      ]
+     }
+    ]
+   },
+   "scramble_compat": [
+    1086.125,
+    11023.375,
+    780.125
+   ]
+  }
+ ],
+ "edge_noise": {
+  "input_sha": "46dfa99a58054e0c1affacf4c888875b682c7a5641dd4c7072484890a296adb1",
+  "scores": {
+   "None": 1299439.125,
+   "5": 445412.75,
+   "2": 138289.625,
+   "1": 43118.0
+  }
+ },
+ "layer": {
+  "synth0": {
+   "input_sha": "caaddee0055098fb24bc2b21eda8fa5800f926c493b01fc72b1c6c7a7fda520c",
+   "default": {
+    "sha": "5ada18b318bbf2fb18b86f052425a6a1e089aa5f1e6cd4c5dafbd7e7ed9f3279",
+    "score": 22231.875,
+    "layers": [
+     {
+      "layer": "R",
+      "planes": [
+       6,
+       0,
+       11,
+       5
+      ],
+      "anchor_slot": 1,
+      "neighbours": [
+       {
+        "plane": 5,
+        "slot": 3,
+        "variant": 2,
+        "anchor_edge": 1,
+        "edge": 2
+       },
+       {
+        "plane": 6,
+        "slot": 0,
+        "variant": 0,
+        "anchor_edge": 2,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 11,
+       "slot": 2,
+       "variant": 2,
+       "dihedral": 1
+      }
+     },
+     {
+      "layer": "G",
+      "planes": [
+       8,
+       1,
+       10,
+       4
+      ],
+      "anchor_slot": 1,
+      "neighbours": [
+       {
+        "plane": 4,
+        "slot": 3,
+        "variant": 2,
+        "anchor_edge": 1,
+        "edge": 2
+       },
+       {
+        "plane": 8,
+        "slot": 0,
+        "variant": 0,
+        "anchor_edge": 2,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 10,
+       "slot": 2,
+       "variant": 2,
+       "dihedral": 1
+      }
+     },
+     {
+      "layer": "B",
+      "planes": [
+       7,
+       9,
+       2,
+       3
+      ],
+      "anchor_slot": 0,
+      "neighbours": [
+       {
+        "plane": 9,
+        "slot": 1,
+        "variant": 2,
+        "anchor_edge": 3,
+        "edge": 3
+       },
+       {
+        "plane": 2,
+        "slot": 2,
+        "variant": 0,
+        "anchor_edge": 1,
+        "edge": 2
+       }
+      ],
+      "fourth": {
+       "plane": 3,
+       "slot": 3,
+       "variant": 2,
+       "dihedral": 0
+      }
+     }
+    ],
+    "equivalent": [
+     5
+    ]
+   },
+   "fix_fourth_flip": {
+    "sha": "5ada18b318bbf2fb18b86f052425a6a1e089aa5f1e6cd4c5dafbd7e7ed9f3279",
+    "score": 22231.875,
+    "layers": [
+     {
+      "layer": "R",
+      "planes": [
+       6,
+       0,
+       11,
+       5
+      ],
+      "anchor_slot": 1,
+      "neighbours": [
+       {
+        "plane": 5,
+        "slot": 3,
+        "variant": 2,
+        "anchor_edge": 1,
+        "edge": 2
+       },
+       {
+        "plane": 6,
+        "slot": 0,
+        "variant": 0,
+        "anchor_edge": 2,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 11,
+       "slot": 2,
+       "variant": 2,
+       "dihedral": 1
+      }
+     },
+     {
+      "layer": "G",
+      "planes": [
+       8,
+       1,
+       10,
+       4
+      ],
+      "anchor_slot": 1,
+      "neighbours": [
+       {
+        "plane": 4,
+        "slot": 3,
+        "variant": 2,
+        "anchor_edge": 1,
+        "edge": 2
+       },
+       {
+        "plane": 8,
+        "slot": 0,
+        "variant": 0,
+        "anchor_edge": 2,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 10,
+       "slot": 2,
+       "variant": 2,
+       "dihedral": 1
+      }
+     },
+     {
+      "layer": "B",
+      "planes": [
+       7,
+       9,
+       2,
+       3
+      ],
+      "anchor_slot": 0,
+      "neighbours": [
+       {
+        "plane": 9,
+        "slot": 1,
+        "variant": 2,
+        "anchor_edge": 3,
+        "edge": 3
+       },
+       {
+        "plane": 2,
+        "slot": 2,
+        "variant": 0,
+        "anchor_edge": 1,
+        "edge": 2
+       }
+      ],
+      "fourth": {
+       "plane": 3,
+       "slot": 3,
+       "variant": 2,
+       "dihedral": 0
+      }
+     }
+    ],
+    "equivalent": [
+     5
+    ]
+   },
+   "one_plane_per_sub_block": {
+    "sha": "5ada18b318bbf2fb18b86f052425a6a1e089aa5f1e6cd4c5dafbd7e7ed9f3279",
+    "score": 22231.875,
+    "layers": [
+     {
+      "layer": "R",
+      "planes": [
+       6,
+       0,
+       11,
+       5
+      ],
+      "anchor_slot": 1,
+      "neighbours": [
+       {
+        "plane": 5,
+        "slot": 3,
+        "variant": 2,
+        "anchor_edge": 1,
+        "edge": 2
+       },
+       {
+        "plane": 6,
+        "slot": 0,
+        "variant": 0,
+        "anchor_edge": 2,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 11,
+       "slot": 2,
+       "variant": 2,
+       "dihedral": 1
+      }
+     },
+     {
+      "layer": "G",
+      "planes": [
+       8,
+       1,
+       10,
+       4
+      ],
+      "anchor_slot": 1,
+      "neighbours": [
+       {
+        "plane": 4,
+        "slot": 3,
+        "variant": 2,
+        "anchor_edge": 1,
+        "edge": 2
+       },
+       {
+        "plane": 8,
+        "slot": 0,
+        "variant": 0,
+        "anchor_edge": 2,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 10,
+       "slot": 2,
+       "variant": 2,
+       "dihedral": 1
+      }
+     },
+     {
+      "layer": "B",
+      "planes": [
+       7,
+       9,
+       2,
+       3
+      ],
+      "anchor_slot": 0,
+      "neighbours": [
+       {
+        "plane": 9,
+        "slot": 1,
+        "variant": 2,
+        "anchor_edge": 3,
+        "edge": 3
+       },
+       {
+        "plane": 2,
+        "slot": 2,
+        "variant": 0,
+        "anchor_edge": 1,
+        "edge": 2
+       }
+      ],
+      "fourth": {
+       "plane": 3,
+       "slot": 3,
+       "variant": 2,
+       "dihedral": 0
+      }
+     }
+    ],
+    "equivalent": [
+     5
+    ]
+   },
+   "both": {
+    "sha": "5ada18b318bbf2fb18b86f052425a6a1e089aa5f1e6cd4c5dafbd7e7ed9f3279",
+    "score": 22231.875,
+    "layers": [
+     {
+      "layer": "R",
+      "planes": [
+       6,
+       0,
+       11,
+       5
+      ],
+      "anchor_slot": 1,
+      "neighbours": [
+       {
+        "plane": 5,
+        "slot": 3,
+        "variant": 2,
+        "anchor_edge": 1,
+        "edge": 2
+       },
+       {
+        "plane": 6,
+        "slot": 0,
+        "variant": 0,
+        "anchor_edge": 2,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 11,
+       "slot": 2,
+       "variant": 2,
+       "dihedral": 1
+      }
+     },
+     {
+      "layer": "G",
+      "planes": [
+       8,
+       1,
+       10,
+       4
+      ],
+      "anchor_slot": 1,
+      "neighbours": [
+       {
+        "plane": 4,
+        "slot": 3,
+        "variant": 2,
+        "anchor_edge": 1,
+        "edge": 2
+       },
+       {
+        "plane": 8,
+        "slot": 0,
+        "variant": 0,
+        "anchor_edge": 2,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 10,
+       "slot": 2,
+       "variant": 2,
+       "dihedral": 1
+      }
+     },
+     {
+      "layer": "B",
+      "planes": [
+       7,
+       9,
+       2,
+       3
+      ],
+      "anchor_slot": 0,
+      "neighbours": [
+       {
+        "plane": 9,
+        "slot": 1,
+        "variant": 2,
+        "anchor_edge": 3,
+        "edge": 3
+       },
+       {
+        "plane": 2,
+        "slot": 2,
+        "variant": 0,
+        "anchor_edge": 1,
+        "edge": 2
+       }
+      ],
+      "fourth": {
+       "plane": 3,
+       "slot": 3,
+       "variant": 2,
+       "dihedral": 0
+      }
+     }
+    ],
+    "equivalent": [
+     5
+    ]
+   }
+  },
+  "synth3": {
+   "input_sha": "696fd176ba28b42d833657682cabaafc454edfdecec3d84f4a421dc4283721ad",
+   "default": {
+    "sha": "27b07ed85e27bb77882ed78e2dc15d06f5f0fbf8ec1dd0cccda92dbc8f171491",
+    "score": 42558.0,
+    "layers": [
+     {
+      "layer": "R",
+      "planes": [
+       7,
+       5,
+       10,
+       0
+      ],
+      "anchor_slot": 3,
+      "neighbours": [
+       {
+        "plane": 10,
+        "slot": 2,
+        "variant": 1,
+        "anchor_edge": 2,
+        "edge": 3
+       },
+       {
+        "plane": 5,
+        "slot": 1,
+        "variant": 2,
+        "anchor_edge": 0,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 7,
+       "slot": 0,
+       "variant": 0,
+       "dihedral": 3
+      }
+     },
+     {
+      "layer": "G",
+      "planes": [
+       8,
+       4,
+       9,
+       1
+      ],
+      "anchor_slot": 3,
+      "neighbours": [
+       {
+        "plane": 9,
+        "slot": 2,
+        "variant": 1,
+        "anchor_edge": 2,
+        "edge": 3
+       },
+       {
+        "plane": 4,
+        "slot": 1,
+        "variant": 2,
+        "anchor_edge": 0,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 8,
+       "slot": 0,
+       "variant": 0,
+       "dihedral": 3
+      }
+     },
+     {
+      "layer": "B",
+      "planes": [
+       3,
+       2,
+       6,
+       11
+      ],
+      "anchor_slot": 2,
+      "neighbours": [
+       {
+        "plane": 3,
+        "slot": 0,
+        "variant": 2,
+        "anchor_edge": 0,
+        "edge": 2
+       },
+       {
+        "plane": 11,
+        "slot": 3,
+        "variant": 1,
+        "anchor_edge": 3,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 2,
+       "slot": 1,
+       "variant": 0,
+       "dihedral": 1
+      }
+     }
+    ],
+    "equivalent": [
+     3
+    ]
+   },
+   "fix_fourth_flip": {
+    "sha": "27b07ed85e27bb77882ed78e2dc15d06f5f0fbf8ec1dd0cccda92dbc8f171491",
+    "score": 42558.0,
+    "layers": [
+     {
+      "layer": "R",
+      "planes": [
+       7,
+       5,
+       10,
+       0
+      ],
+      "anchor_slot": 3,
+      "neighbours": [
+       {
+        "plane": 10,
+        "slot": 2,
+        "variant": 1,
+        "anchor_edge": 2,
+        "edge": 3
+       },
+       {
+        "plane": 5,
+        "slot": 1,
+        "variant": 2,
+        "anchor_edge": 0,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 7,
+       "slot": 0,
+       "variant": 0,
+       "dihedral": 3
+      }
+     },
+     {
+      "layer": "G",
+      "planes": [
+       8,
+       4,
+       9,
+       1
+      ],
+      "anchor_slot": 3,
+      "neighbours": [
+       {
+        "plane": 9,
+        "slot": 2,
+        "variant": 1,
+        "anchor_edge": 2,
+        "edge": 3
+       },
+       {
+        "plane": 4,
+        "slot": 1,
+        "variant": 2,
+        "anchor_edge": 0,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 8,
+       "slot": 0,
+       "variant": 0,
+       "dihedral": 3
+      }
+     },
+     {
+      "layer": "B",
+      "planes": [
+       3,
+       2,
+       6,
+       11
+      ],
+      "anchor_slot": 2,
+      "neighbours": [
+       {
+        "plane": 3,
+        "slot": 0,
+        "variant": 2,
+        "anchor_edge": 0,
+        "edge": 2
+       },
+       {
+        "plane": 11,
+        "slot": 3,
+        "variant": 1,
+        "anchor_edge": 3,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 2,
+       "slot": 1,
+       "variant": 0,
+       "dihedral": 1
+      }
+     }
+    ],
+    "equivalent": [
+     3
+    ]
+   },
+   "one_plane_per_sub_block": {
+    "sha": "27b07ed85e27bb77882ed78e2dc15d06f5f0fbf8ec1dd0cccda92dbc8f171491",
+    "score": 42558.0,
+    "layers": [
+     {
+      "layer": "R",
+      "planes": [
+       7,
+       5,
+       10,
+       0
+      ],
+      "anchor_slot": 3,
+      "neighbours": [
+       {
+        "plane": 10,
+        "slot": 2,
+        "variant": 1,
+        "anchor_edge": 2,
+        "edge": 3
+       },
+       {
+        "plane": 5,
+        "slot": 1,
+        "variant": 2,
+        "anchor_edge": 0,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 7,
+       "slot": 0,
+       "variant": 0,
+       "dihedral": 3
+      }
+     },
+     {
+      "layer": "G",
+      "planes": [
+       8,
+       4,
+       9,
+       1
+      ],
+      "anchor_slot": 3,
+      "neighbours": [
+       {
+        "plane": 9,
+        "slot": 2,
+        "variant": 1,
+        "anchor_edge": 2,
+        "edge": 3
+       },
+       {
+        "plane": 4,
+        "slot": 1,
+        "variant": 2,
+        "anchor_edge": 0,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 8,
+       "slot": 0,
+       "variant": 0,
+       "dihedral": 3
+      }
+     },
+     {
+      "layer": "B",
+      "planes": [
+       3,
+       2,
+       6,
+       11
+      ],
+      "anchor_slot": 2,
+      "neighbours": [
+       {
+        "plane": 3,
+        "slot": 0,
+        "variant": 2,
+        "anchor_edge": 0,
+        "edge": 2
+       },
+       {
+        "plane": 11,
+        "slot": 3,
+        "variant": 1,
+        "anchor_edge": 3,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 2,
+       "slot": 1,
+       "variant": 0,
+       "dihedral": 1
+      }
+     }
+    ],
+    "equivalent": [
+     3
+    ]
+   },
+   "both": {
+    "sha": "27b07ed85e27bb77882ed78e2dc15d06f5f0fbf8ec1dd0cccda92dbc8f171491",
+    "score": 42558.0,
+    "layers": [
+     {
+      "layer": "R",
+      "planes": [
+       7,
+       5,
+       10,
+       0
+      ],
+      "anchor_slot": 3,
+      "neighbours": [
+       {
+        "plane": 10,
+        "slot": 2,
+        "variant": 1,
+        "anchor_edge": 2,
+        "edge": 3
+       },
+       {
+        "plane": 5,
+        "slot": 1,
+        "variant": 2,
+        "anchor_edge": 0,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 7,
+       "slot": 0,
+       "variant": 0,
+       "dihedral": 3
+      }
+     },
+     {
+      "layer": "G",
+      "planes": [
+       8,
+       4,
+       9,
+       1
+      ],
+      "anchor_slot": 3,
+      "neighbours": [
+       {
+        "plane": 9,
+        "slot": 2,
+        "variant": 1,
+        "anchor_edge": 2,
+        "edge": 3
+       },
+       {
+        "plane": 4,
+        "slot": 1,
+        "variant": 2,
+        "anchor_edge": 0,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 8,
+       "slot": 0,
+       "variant": 0,
+       "dihedral": 3
+      }
+     },
+     {
+      "layer": "B",
+      "planes": [
+       3,
+       2,
+       6,
+       11
+      ],
+      "anchor_slot": 2,
+      "neighbours": [
+       {
+        "plane": 3,
+        "slot": 0,
+        "variant": 2,
+        "anchor_edge": 0,
+        "edge": 2
+       },
+       {
+        "plane": 11,
+        "slot": 3,
+        "variant": 1,
+        "anchor_edge": 3,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 2,
+       "slot": 1,
+       "variant": 0,
+       "dihedral": 1
+      }
+     }
+    ],
+    "equivalent": [
+     3
+    ]
+   }
+  },
+  "noise": {
+   "input_sha": "bf067019fdc5508346a50fe6f0a3f1919b6c4756f9f5a18aa0af244fa5779f87",
+   "default": {
+    "sha": "9d67d7ddb8aaec2251b959aa73689225aec02428fe4f301704a57ba9ddc6aa8f",
+    "score": 24379889.875,
+    "layers": [
+     {
+      "layer": "R",
+      "planes": [
+       6,
+       0,
+       9,
+       1
+      ],
+      "anchor_slot": 1,
+      "neighbours": [
+       {
+        "plane": 1,
+        "slot": 3,
+        "variant": 3,
+        "anchor_edge": 1,
+        "edge": 2
+       },
+       {
+        "plane": 6,
+        "slot": 0,
+        "variant": 0,
+        "anchor_edge": 2,
+        "edge": 0
+       }
+      ],
+      "fourth": {
+       "plane": 9,
+       "slot": 2,
+       "variant": 3,
+       "dihedral": 3
+      }
+     },
+     {
+      "layer": "G",
+      "planes": [
+       8,
+       2,
+       7,
+       10
+      ],
+      "anchor_slot": 1,
+      "neighbours": [
+       {
+        "plane": 8,
+        "slot": 0,
+        "variant": 2,
+        "anchor_edge": 2,
+        "edge": 2
+       },
+       {
+        "plane": 10,
+        "slot": 3,
+        "variant": 2,
+        "anchor_edge": 1,
+        "edge": 2
+       }
+      ],
+      "fourth": {
+       "plane": 7,
+       "slot": 2,
+       "variant": 2,
+       "dihedral": 1
+      }
+     },
+     {
+      "layer": "B",
+      "planes": [
+       5,
+       3,
+       4,
+       11
+      ],
+      "anchor_slot": 1,
+      "neighbours": [
+       {
+        "plane": 5,
+        "slot": 0,
+        "variant": 0,
+        "anchor_edge": 2,
+        "edge": 0
+       },
+       {
+        "plane": 11,
+        "slot": 3,
+        "variant": 3,
+        "anchor_edge": 1,
+        "edge": 2
+       }
+      ],
+      "fourth": {
+       "plane": 4,
+       "slot": 2,
+       "variant": 3,
+       "dihedral": 1
+      }
+     }
+    ],
+    "equivalent": []
+   },
+   "fix_fourth_flip": {
+    "sha": "824a30cf6e4494724f4adb102ba236add8ab9e5bace8beb10998a7866c56230b",
+    "score": 24488478.5,
+    "layers": [
+     {
+      "layer": "R",
+      "planes": [
+       6,
+       0,
+       8,
+       1
+      ],
+      "anchor_slot": 1,
+      "neighbours": [
+       {
+        "plane": 1,
+        "slot": 3,
+        "variant": 3,
+        "anchor_edge": 1,
+        "edge": 2
+       },
+       {
+        "plane": 6,
+        "slot": 0,
+        "variant": 0,
+        "anchor_edge": 2,
+        "edge": 0
+       }
+      ],
+      "fourth": {
+       "plane": 8,
+       "slot": 2,
+       "variant": 0,
+       "dihedral": 6
+      }
+     },
+     {
+      "layer": "G",
+      "planes": [
+       9,
+       2,
+       3,
+       10
+      ],
+      "anchor_slot": 1,
+      "neighbours": [
+       {
+        "plane": 9,
+        "slot": 0,
+        "variant": 3,
+        "anchor_edge": 2,
+        "edge": 2
+       },
+       {
+        "plane": 10,
+        "slot": 3,
+        "variant": 2,
+        "anchor_edge": 1,
+        "edge": 2
+       }
+      ],
+      "fourth": {
+       "plane": 3,
+       "slot": 2,
+       "variant": 0,
+       "dihedral": 1
+      }
+     },
+     {
+      "layer": "B",
+      "planes": [
+       5,
+       4,
+       7,
+       11
+      ],
+      "anchor_slot": 2,
+      "neighbours": [
+       {
+        "plane": 5,
+        "slot": 0,
+        "variant": 0,
+        "anchor_edge": 0,
+        "edge": 1
+       },
+       {
+        "plane": 11,
+        "slot": 3,
+        "variant": 3,
+        "anchor_edge": 3,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 4,
+       "slot": 1,
+       "variant": 2,
+       "dihedral": 3
+      }
+     }
+    ],
+    "equivalent": []
+   },
+   "one_plane_per_sub_block": {
+    "sha": "e53ae13a68647c31e21e18b64a142ea8429063cd467a3bf68b19553d6c96e8b9",
+    "score": 24403431.5,
+    "layers": [
+     {
+      "layer": "R",
+      "planes": [
+       6,
+       0,
+       9,
+       4
+      ],
+      "anchor_slot": 1,
+      "neighbours": [
+       {
+        "plane": 4,
+        "slot": 3,
+        "variant": 0,
+        "anchor_edge": 1,
+        "edge": 0
+       },
+       {
+        "plane": 6,
+        "slot": 0,
+        "variant": 0,
+        "anchor_edge": 2,
+        "edge": 0
+       }
+      ],
+      "fourth": {
+       "plane": 9,
+       "slot": 2,
+       "variant": 2,
+       "dihedral": 5
+      }
+     },
+     {
+      "layer": "G",
+      "planes": [
+       1,
+       11,
+       8,
+       3
+      ],
+      "anchor_slot": 0,
+      "neighbours": [
+       {
+        "plane": 8,
+        "slot": 2,
+        "variant": 1,
+        "anchor_edge": 1,
+        "edge": 0
+       },
+       {
+        "plane": 11,
+        "slot": 1,
+        "variant": 1,
+        "anchor_edge": 3,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 3,
+       "slot": 3,
+       "variant": 1,
+       "dihedral": 3
+      }
+     },
+     {
+      "layer": "B",
+      "planes": [
+       5,
+       10,
+       7,
+       2
+      ],
+      "anchor_slot": 2,
+      "neighbours": [
+       {
+        "plane": 2,
+        "slot": 3,
+        "variant": 2,
+        "anchor_edge": 3,
+        "edge": 3
+       },
+       {
+        "plane": 5,
+        "slot": 0,
+        "variant": 0,
+        "anchor_edge": 0,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 10,
+       "slot": 1,
+       "variant": 1,
+       "dihedral": 2
+      }
+     }
+    ],
+    "equivalent": []
+   },
+   "both": {
+    "sha": "0c491536e0d103e0f09bc30a3f6c6e84c46f4375e30b794fc793068ff8d50a7a",
+    "score": 24428899.375,
+    "layers": [
+     {
+      "layer": "R",
+      "planes": [
+       6,
+       0,
+       9,
+       4
+      ],
+      "anchor_slot": 1,
+      "neighbours": [
+       {
+        "plane": 4,
+        "slot": 3,
+        "variant": 0,
+        "anchor_edge": 1,
+        "edge": 0
+       },
+       {
+        "plane": 6,
+        "slot": 0,
+        "variant": 0,
+        "anchor_edge": 2,
+        "edge": 0
+       }
+      ],
+      "fourth": {
+       "plane": 9,
+       "slot": 2,
+       "variant": 2,
+       "dihedral": 5
+      }
+     },
+     {
+      "layer": "G",
+      "planes": [
+       1,
+       11,
+       8,
+       3
+      ],
+      "anchor_slot": 0,
+      "neighbours": [
+       {
+        "plane": 8,
+        "slot": 2,
+        "variant": 1,
+        "anchor_edge": 1,
+        "edge": 0
+       },
+       {
+        "plane": 11,
+        "slot": 1,
+        "variant": 1,
+        "anchor_edge": 3,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 3,
+       "slot": 3,
+       "variant": 2,
+       "dihedral": 3
+      }
+     },
+     {
+      "layer": "B",
+      "planes": [
+       5,
+       10,
+       7,
+       2
+      ],
+      "anchor_slot": 2,
+      "neighbours": [
+       {
+        "plane": 2,
+        "slot": 3,
+        "variant": 2,
+        "anchor_edge": 3,
+        "edge": 3
+       },
+       {
+        "plane": 5,
+        "slot": 0,
+        "variant": 0,
+        "anchor_edge": 0,
+        "edge": 1
+       }
+      ],
+      "fourth": {
+       "plane": 10,
+       "slot": 1,
+       "variant": 0,
+       "dihedral": 4
+      }
+     }
+    ],
+    "equivalent": []
+   }
+  }
+ },
+ "select": {
+  "pixel": [
+   {
+    "input_sha": "f5fa77a887c319508165c7ca3d8f5337100053ad034a123d8bd18965646fbc85",
+    "top": [
+     0,
+     2,
+     18
+    ],
+    "scores": [
+     2.9272629383139526,
+     1.403717462790832,
+     1.4003082912248423
+    ],
+    "rho": [
+     0.968593778672737,
+     0.969257510367335,
+     0.9894116492738804
+    ],
+    "invert": [
+     false,
+     false,
+     false
+    ],
+    "top_equivalent": true
+   },
+   {
+    "input_sha": "51caee26c4768a1315624f21b3d2faca59bedd758cf0f985ddb22514d58ed2c9",
+    "top": [
+     0,
+     6,
+     48
+    ],
+    "scores": [
+     2.9494498504706863,
+     1.5455398914413552,
+     1.5313135569822856
+    ],
+    "rho": [
+     0.9849257638712354,
+     0.9829295099949699,
+     0.9815945766044811
+    ],
+    "invert": [
+     false,
+     false,
+     false
+    ],
+    "top_equivalent": true
+   },
+   {
+    "input_sha": "bb8b5d93839c5963c1cb28449a6b08292c3e34bf212fbd02510d88bfeea35807",
+    "top": [
+     3,
+     19,
+     1
+    ],
+    "scores": [
+     2.8379450320864503,
+     1.4104329728796843,
+     1.3997831820616318
+    ],
+    "rho": [
+     0.9693552318974038,
+     -0.9519324409321966,
+     -0.9166573592568501
+    ],
+    "invert": [
+     false,
+     false,
+     true
+    ],
+    "top_equivalent": true
+   },
+   {
+    "input_sha": "c94cae4cd1835b334bcffbeeb91ce745ff515f25a744f8e72b8a365e9eba66b4",
+    "top": [
+     0,
+     18,
+     16
+    ],
+    "scores": [
+     2.9465535092533397,
+     1.4447464962123788,
+     1.429820253934873
+    ],
+    "rho": [
+     0.9850349767556655,
+     0.9833772966675823,
+     0.978141235830092
+    ],
+    "invert": [
+     false,
+     false,
+     false
+    ],
+    "top_equivalent": true
+   },
+   {
+    "input_sha": "c880fbf19faf459f859f7e63799c16955ba272ccb4e42f5831156854a322763e",
+    "top": [
+     6,
+     20,
+     4
+    ],
+    "scores": [
+     2.9374614750534684,
+     1.5834460337787153,
+     1.5766248574117654
+    ],
+    "rho": [
+     0.9683849622821767,
+     -0.9771864228845332,
+     -0.9918900898867588
+    ],
+    "invert": [
+     false,
+     false,
+     true
+    ],
+    "top_equivalent": true
+   },
+   {
+    "input_sha": "dade7719802c5f3868ff1bdd7813f72a602e8f1684792b0ad81e560fb3269785",
+    "top": [
+     1,
+     7,
+     49
+    ],
+    "scores": [
+     2.862459729341435,
+     1.4876818694340082,
+     1.446097649158996
+    ],
+    "rho": [
+     0.9819987341969408,
+     0.96242276187011,
+     0.9180382332743843
+    ],
+    "invert": [
+     false,
+     false,
+     false
+    ],
+    "top_equivalent": true
+   }
+  ],
+  "laplacian": [
+   {
+    "input_sha": "f5fa77a887c319508165c7ca3d8f5337100053ad034a123d8bd18965646fbc85",
+    "top": [
+     0,
+     6,
+     48
+    ],
+    "scores": [
+     2.360205896386926,
+     1.5500844369776265,
+     1.547309422752394
+    ],
+    "rho": [
+     0.7905397792493809,
+     0.7850097479036536,
+     0.7846563692338915
+    ],
+    "invert": [
+     false,
+     false,
+     false
+    ],
+    "top_equivalent": true
+   },
+   {
+    "input_sha": "51caee26c4768a1315624f21b3d2faca59bedd758cf0f985ddb22514d58ed2c9",
+    "top": [
+     0,
+     6,
+     48
+    ],
+    "scores": [
+     2.679449867205344,
+     2.080939489642557,
+     2.07877213710747
+    ],
+    "rho": [
+     0.8956408537806859,
+     0.8924240922437628,
+     0.8913849211808949
+    ],
+    "invert": [
+     false,
+     false,
+     false
+    ],
+    "top_equivalent": true
+   },
+   {
+    "input_sha": "bb8b5d93839c5963c1cb28449a6b08292c3e34bf212fbd02510d88bfeea35807",
+    "top": [
+     3,
+     39,
+     7
+    ],
+    "scores": [
+     2.8553711730810107,
+     1.593176972192929,
+     1.5926779790144796
+    ],
+    "rho": [
+     0.9519206603479364,
+     -0.9516229053540318,
+     -0.9518276073790422
+    ],
+    "invert": [
+     false,
+     false,
+     true
+    ],
+    "top_equivalent": true
+   },
+   {
+    "input_sha": "c94cae4cd1835b334bcffbeeb91ce745ff515f25a744f8e72b8a365e9eba66b4",
+    "top": [
+     0,
+     32,
+     4
+    ],
+    "scores": [
+     2.7802433709646692,
+     1.6732872012383972,
+     1.6730141214914496
+    ],
+    "rho": [
+     0.9268572514072887,
+     0.9266203984938397,
+     0.926765721063541
+    ],
+    "invert": [
+     false,
+     false,
+     false
+    ],
+    "top_equivalent": true
+   },
+   {
+    "input_sha": "c880fbf19faf459f859f7e63799c16955ba272ccb4e42f5831156854a322763e",
+    "top": [
+     6,
+     48,
+     54
+    ],
+    "scores": [
+     2.762675784421104,
+     1.3318403124104092,
+     1.3304719224476378
+    ],
+    "rho": [
+     0.9205057942294008,
+     -0.9211868275742461,
+     -0.9209831626174567
+    ],
+    "invert": [
+     false,
+     false,
+     true
+    ],
+    "top_equivalent": true
+   },
+   {
+    "input_sha": "dade7719802c5f3868ff1bdd7813f72a602e8f1684792b0ad81e560fb3269785",
+    "top": [
+     1,
+     55,
+     7
+    ],
+    "scores": [
+     2.669225877673262,
+     1.1604071171729047,
+     1.1556957152532188
+    ],
+    "rho": [
+     0.888760833079329,
+     0.8889946008344396,
+     0.8914704437594935
+    ],
+    "invert": [
+     false,
+     false,
+     false
+    ],
+    "top_equivalent": true
+   }
+  ]
+ },
+ "select_edge_inverted": {
+  "rho": [
+   -0.9659058352790948,
+   0.9604328569400459,
+   -0.9631367043022507
+  ],
+  "invert": [
+   false,
+   true,
+   false
+  ]
+ },
+ "metrics": {
+  "psnr": 33.35667663682227,
+  "ssim": 0.9970999416645632,
+  "ssim_gray": 0.9969455431579645
+ },
+ "pipeline": {
+  "independent_64": {
+   "ejps_global": {
+    "psnr": 14.940436369580034,
+    "ssim": 0.31728867681010137,
+    "block_rate": 0.0,
+    "sub_block_rate": 0.0
+   },
+   "ejps_oracle": {
+    "psnr": 26.487357357173835,
+    "ssim": 0.7660904923848341,
+    "block_rate": 0.0,
+    "sub_block_rate": 0.28125
+   },
+   "final": {
+    "psnr": 14.940436369580034,
+    "ssim": 0.31728867681010137
+   }
+  },
+  "per_position_4": {
+   "ejps_global": {
+    "psnr": 15.172987685994563,
+    "ssim": 0.3510344118118513,
+    "block_rate": 0.0,
+    "sub_block_rate": 0.0
+   },
+   "ejps_oracle": {
+    "psnr": 29.454321674958553,
+    "ssim": 0.9105078185772243,
+    "block_rate": 0.375,
+    "sub_block_rate": 0.5625
+   },
+   "final": {
+    "psnr": 15.174811895660694,
+    "ssim": 0.3387912440372466
+   }
+  },
+  "per_position_8": {
+   "ejps_global": {
+    "psnr": 14.97707671518667,
+    "ssim": 0.34724545632215226,
+    "block_rate": 0.0,
+    "sub_block_rate": 0.0
+   },
+   "ejps_oracle": {
+    "psnr": 34.68631398191469,
+    "ssim": 0.9704613645333438,
+    "block_rate": 0.375,
+    "sub_block_rate": 0.734375
+   },
+   "final": {
+    "psnr": 14.988259988305627,
+    "ssim": 0.34107563998129187
+   }
+  },
+  "common_scramble_64": {
+   "metrics": {
+    "ejps_global": {
+     "psnr": Infinity,
+     "ssim": 1.0,
+     "block_rate": 1.0,
+     "sub_block_rate": 1.0
+    },
+    "ejps_oracle": {
+     "psnr": Infinity,
+     "ssim": 1.0,
+     "block_rate": 1.0,
+     "sub_block_rate": 1.0
+    },
+    "jigsaw_direct": 1.0,
+    "jigsaw_neighbor": 1.0,
+    "final": {
+     "psnr": Infinity,
+     "ssim": 1.0
+    }
+   },
+   "order": [
+    4,
+    9,
+    14,
+    13,
+    0,
+    2,
+    15,
+    3,
+    1,
+    12,
+    5,
+    6,
+    7,
+    8,
+    11,
+    10
+   ]
+  }
+ }
+}
